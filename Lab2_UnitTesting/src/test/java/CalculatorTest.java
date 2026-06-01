@@ -32,12 +32,12 @@ class CalculatorTest {
     }
 
     // --- 2 Test cases cố tình làm sai ---
-    //@Test
+    @Test
     void testDivideFail() {
         assertEquals(5, calculator.divide(6, 3));
     }
 
-    //@Test
+    @Test
     void testAddFail() {
         assertEquals(10, calculator.add(2, 3));
     }
