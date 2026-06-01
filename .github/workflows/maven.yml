@@ -19,4 +19,4 @@ jobs:
           distribution: 'temurin'
           cache: maven
       - name: Build and Test with Maven
-        run: mvn -B test
+      run: mvn -B test -f Lab2_UnitTesting/pom.xml
